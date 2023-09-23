@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Practice_Framework">
+<listeners>
+    <listener class-name="com.newCredentials.utilities.Reporting"/>
+
+</listeners>
+    <test name="New_Credentials Test">
+       <parameter name="browser" value="chrome"/>
+
+        <!-- <parameter name="browser" value="iexplore"/> -->
+
+       <!-- <parameter name="browser" value="firefox"/> -->
+        <classes>
+
+           <!--- <class name="com.newCredentials.testCases.Login_Test"/>-->
+           <!-- <class name="com.newCredentials.testCases.TC_LoginTDD_01"/> -->
+           <class name="com.newCredentials.testCases.TC_AddCustomerTest"/>
+        </classes>
+
+
+
+    </test>
+</suite>
