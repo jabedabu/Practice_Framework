@@ -1,1 +1,3 @@
-this is a text file .txt created for testing
+this is a text file .txt created for testing.
+2.thi file have github and continous integretion purpose
+3.git and github 
